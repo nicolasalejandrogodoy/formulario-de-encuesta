@@ -1,0 +1,90 @@
+*{font-family:"calibri";
+    margin:0px;
+    padding:0px;
+    }
+    #title{
+        font-size:45px;
+    }
+    body{display:flex;
+        flex-direction:column;
+        box-sizing: border-box;
+        width:100%;
+        background:#29306c;
+        align-items:center;
+        
+    }
+    .topbox{text-align:center;
+    background:#404ba9;
+    border-radius:4px;
+    color:white;
+padding:30px;
+width:100%;
+margin-bottom:100px;}
+    
+   
+    .survey-form{
+        
+    
+      background:#29306c;
+      color:rgb(202, 201, 201);
+      
+      font-size:18px;
+      border-radius:4px;
+    text-align:left;
+    width:300px;
+ 
+    }
+    /* inputs inicio*/
+    #name{
+        margin-top:8px;
+        margin-bottom:20px;
+        padding:5px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    #email{
+        margin-top:8px;
+        margin-bottom:20px;
+        padding:5px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    #dropdown{
+        margin-top:8px;
+        margin-bottom:20px;
+        padding:5px;
+    }
+    .preguntas{
+        margin-top:8px;
+        margin-bottom:20px;
+    }
+    #chek{
+        margin-top:8px;
+        margin-bottom:20px;
+    }
+    #number{
+        margin-top:8px;
+        margin-bottom:20px;
+        padding:5px;
+    }
+    /* inputs fin*/
+    .controls{
+    width:auto;
+   border-radius: 8px;
+    border: 1px solid #1f53c5;
+    font-size:18px;
+    background:white;
+    }
+textarea{
+    margin-bottom:50px;
+}
+    #submit{
+    width:60px;
+ margin-bottom:50px;
+    color:white;
+    padding:8px;
+    background:green;
+    border-radius:8px;
+    }
+    
+    

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+ <body> 
+<div class="topbox"><h1 id="title">RELAX HOTEL SURVEY FORM</h1>
+  <p id="description">Thank you to help us with this quick survey.</p>
+  </div>
+  <form class="survey-form"method="post" id="survey-form">
+    <label for="name" id="name-label">NAME
+   </label> 
+   <br>
+   <input class="controls" id="name" type="text"placeholder="Enter your name" required="required"
+   >
+<br>
+   <label for="email" id="email-label">
+     EMAIL
+   </label>
+   <br>
+   <input class="controls" id="email"
+   placeholder="Enter your email"
+   type="email"
+   min="9"
+   max="99" required="required">
+   <br>
+   <label for="dropdown"id="dropdown-label" >¿WHAT WAS THE CONTRATED SERVICE?</label>
+<br>
+<select class="controls"id="dropdown">
+  <option value="Basic">Basic </option>
+  <option value="Premiun">Premiun</option></select>
+
+
+ <br>  
+ <label for="question">¿THE SERVICE MET YOURS EXPECTATIONS?</p>
+  <input class="preguntas" name="question"type="radio" value="yes" >Yes!
+<input  class="preguntas" name="question" type="radio"value="no" >No!
+<br>
+
+<p id="chek">¿WHAT WOULD YOU LIKE TO IMPROVE?
+  <br>
+  <input type="checkbox" value="tema1">Attention
+  <br>
+  <input type="checkbox" value="tema2">Cleaning
+  <br>
+  <input type="checkbox"value="tema3">Decor
+  <br>
+  <input  type="checkbox" value="tema4">Furniture
+  
+  <br>
+  <br>
+  
+   <label for="number" id="number-label">FROM 1 TO 10 BEING 1 NOT RECOMMENDED AND 10 HIGHLY RECOMMENDED. ¿HOW MUCH WOULD YOU RECOMMENDED OUR SERVICE?</label>
+   <br>
+<input class="controls" id="number"
+type="number"
+min="1"
+max="10"
+placeholder="Punctuation"
+value=""
+ > 
+ <br>
+<br>
+<p>ADDITIONAL COMMENTS</p>
+  <div><textarea  class="controls"id="add-comments"type="textarea"></textarea>
+</div>
+ <input class="submit" type="submit"value="Submit" id="submit">
+  </form>
+</body>
+</html>
